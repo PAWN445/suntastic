@@ -728,19 +728,9 @@ export default function SuntasticSolar() {
               </div>
               <p style={{ fontSize: 13, color: "rgba(255,255,255,0.25)", lineHeight: 1.8, marginBottom: 20 }}>Powering the Philippines,<br />one rooftop at a time.</p>
               <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-                {[
-  { label: "Facebook", url: "https://www.facebook.com/SuntasticsolarCo" },
-].map((s) => (
-    <a>
-    key={s.label}
-    href={s.url}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="social-chip"
-    style={{ textDecoration: "none" }}
-    {s.label}
-  </a>
-))}
+                {["Facebook", "Instagram", "LinkedIn", "YouTube"].map((s) => (
+                  <span key={s} className="social-chip">{s}</span>
+                ))}
               </div>
             </div>
             <div className="footer-link-cols" style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 32 }}>
