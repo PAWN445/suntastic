@@ -747,7 +747,7 @@ export default function SuntasticSolar() {
             </div>
           </div>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", paddingTop: 24, borderTop: "1px solid rgba(255,255,255,0.04)", fontSize: 11, color: "rgba(255,255,255,0.15)", flexWrap: "wrap", gap: 8 }}>
-            <span>© 2025 Suntastic Solar Corp. All rights reserved.</span>
+            <span>© 2026 Suntastic Solar Corp. All rights reserved.</span>
             <span>DOE-Accredited Solar Contractor · Philippines</span>
           </div>
         </div>
