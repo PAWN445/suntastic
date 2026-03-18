@@ -730,9 +730,6 @@ export default function SuntasticSolar() {
               <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
                 {[
   { label: "Facebook", url: "https://www.facebook.com/SuntasticsolarCo" },
-  { label: "Bida", url: "" },
-  { label: "Tiktok", url: "" },
-  { label: "YouTube", url: "" },
 ].map((s) => (
     <a>
     key={s.label}
