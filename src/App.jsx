@@ -606,7 +606,13 @@ export default function SuntasticSolar() {
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <SectionLabel>Who We Are</SectionLabel>
           <h2 style={sTitle}>Meet the Team Behind<br /><span style={{ color: G }}>Suntastic Solar</span></h2>
-          <p style={sSub}>Founded in 2018, Suntastic Solar Corp has been at the forefront of the Philippines' solar revolution. Our team brings engineering expertise, business acumen, and a love for clean energy.</p>
+          <p style={sSub}>
+            Suntastic Solar Corp. was founded in March 2026 with a mission to make solar energy simple, affordable, and accessible to everyone. 
+            Recognizing the growing demand for alternative energy solutions, the company is focused on helping Filipino 
+            households and businesses transition to clean and cost-efficient solar power.As a forward-thinking startup, 
+            Suntastic Solar Corp. aims to become a trusted partner in building a sustainable and energy-independent future.
+
+          </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(230px, 1fr))", gap: 18 }}>
             {TEAM.map((m, i) => (
               <div key={i} className="team-card">
