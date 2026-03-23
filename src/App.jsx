@@ -24,19 +24,19 @@ const PRICING = [
     name: "Starter", tagline: "Perfect for small homes", price: "289,000",
     system: "3kW System", panels: "6–8 Panels", badge: null,
     features: ["3kW solar panel system","Tier-1 monocrystalline panels","String inverter included","Meralco net metering setup","1-year monitoring subscription","10-yr workmanship warranty","25-yr panel warranty"],
-    savings: "₱3,500–₱5,000/mo", payback: "5–7 years",
+    savings: "₱3,500–₱5,000/mo", payback: "2–3 years",
   },
   {
     name: "Home Solar", tagline: "Best for medium homes", price: "379,000",
     system: "6kW System", panels: "12–14 Panels", badge: "Most Popular",
     features: ["6kW solar panel system","Tier-1 monocrystalline panels","Hybrid inverter included","Meralco net metering setup","3-year monitoring subscription","Battery-ready configuration","10-yr workmanship warranty","25-yr panel warranty"],
-    savings: "₱8,000–₱9,000/mo", payback: "4–6 years",
+    savings: "₱8,000–₱9,000/mo", payback: "3–4 years",
   },
   {
     name: "Power Home", tagline: "For large homes & estates", price: "579,000",
     system: "10kW System", panels: "20–24 Panels", badge: null,
     features: ["10kW solar panel system","Premium Tier-1 panels","Premium hybrid inverter","Meralco net metering setup","Lifetime monitoring included","Battery storage included","Priority service support","10-yr workmanship warranty","25-yr panel warranty"],
-    savings: "₱11,000–₱16,000/mo", payback: "4–5 years",
+    savings: "₱11,000–₱16,000/mo", payback: "3–4 years",
   },
 ];
 
