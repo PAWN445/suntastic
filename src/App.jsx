@@ -729,7 +729,7 @@ export default function SuntasticSolar() {
                 <img src="/suntastic_logo_png.png" alt="Suntastic Solar Logo" style={{ width: 80, height: 80, objectFit: "contain", borderRadius: 12 }}/>
                 <div>
                   <div style={{ fontSize: 14, fontWeight: 900, color: "#fff", letterSpacing: "-0.3px" }}>Suntastic Solar Corp</div>
-                  <div style={{ fontSize: 9, color: G, fontWeight: 700, letterSpacing: "1.8px" }}>From Sunlight to Savings</div>
+                  <div style={{ fontSize: 9, color: G, fontWeight: 700, letterSpacing: "1.8px" }}>FROM SUNLIGHT TO SAVINGS</div>
                 </div>
               </div>
               <p style={{ fontSize: 13, color: "rgba(255,255,255,0.25)", lineHeight: 1.8, marginBottom: 20 }}>Powering the Philippines,<br />one rooftop at a time.</p>
