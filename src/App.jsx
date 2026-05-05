@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 const G = "#00C47A";
 
@@ -133,11 +134,36 @@ export default function SuntasticSolar() {
     if (quoteStep===2&&(!quoteForm.name||!quoteForm.phone||!quoteForm.email)){setQuoteError("Punan ang lahat ng required fields.");return;}
     setQuoteStep(s=>s+1);
   };
-  const handleQuoteSubmit = async () => {
-    setQuoteError(""); setQuoteSubmitting(true);
-    await new Promise(r=>setTimeout(r,1400));
-    setQuoteSubmitting(false); setQuoteSubmitted(true);
+const handleQuoteSubmit = async () => {
+  setQuoteError("");
+  setQuoteSubmitting(true);
+
+  const templateParams = {
+    title:         "New Solar Quote Request",
+    property_type: quoteForm.type,
+    monthly_bill:  quoteForm.bill,
+    city:          quoteForm.city || "Not provided",
+    name:          quoteForm.name,
+    phone:         quoteForm.phone,
+    email:         quoteForm.email,
+    notes:         quoteForm.message || "None",
   };
+
+  try {
+    await emailjs.send(
+      "service_qczgnue",
+      "template_r31tr8a",
+      templateParams,
+      "OB6kUgrEnLUSGFiAX"
+    );
+    setQuoteSubmitted(true);
+  } catch (error) {
+    console.error("EmailJS error:", error);
+    setQuoteError("May error sa pagpapadala. Subukan ulit.");
+  } finally {
+    setQuoteSubmitting(false);
+  }
+};
 
   const proj = PROJECTS[currentSlide];
   const navBg = !scrolled?"transparent":pastHero?"rgba(255,255,255,0.97)":"rgba(10,10,15,0.95)";
