@@ -23,19 +23,19 @@ const PRICING = [
   {
     name: "Starter", tagline: "Perfect for small homes", price: "289,000",
     system: "3kW System", panels: "6–8 Panels", badge: null,
-    features: ["3kW solar panel system","Tier-1 monocrystalline panels","String inverter included","Meralco net metering setup","1-year monitoring subscription","10-yr workmanship warranty","25-yr panel warranty"],
+    features: ["3kW solar panel system","Tier-1 monocrystalline panels","String inverter included","1-year monitoring subscription","10-yr workmanship warranty","25-yr panel warranty"],
     savings: "₱3,500–₱5,000/mo", payback: "2–3 years",
   },
   {
     name: "Home Solar", tagline: "Best for medium homes", price: "379,000",
     system: "6kW System", panels: "12–14 Panels", badge: "Most Popular",
-    features: ["6kW solar panel system","Tier-1 monocrystalline panels","Hybrid inverter included","Meralco net metering setup","3-year monitoring subscription","Battery-ready configuration","10-yr workmanship warranty","25-yr panel warranty"],
+    features: ["6kW solar panel system","Tier-1 monocrystalline panels","Hybrid inverter included","3-year monitoring subscription","Battery-ready configuration","10-yr workmanship warranty","25-yr panel warranty"],
     savings: "₱8,000–₱9,000/mo", payback: "3–4 years",
   },
   {
     name: "Power Home", tagline: "For large homes & estates", price: "579,000",
     system: "10kW System", panels: "20–24 Panels", badge: null,
-    features: ["10kW solar panel system","Premium Tier-1 panels","Premium hybrid inverter","Meralco net metering setup","Lifetime monitoring included","Battery storage included","Priority service support","10-yr workmanship warranty","25-yr panel warranty"],
+    features: ["10kW solar panel system","Premium Tier-1 panels","Premium hybrid inverter","Lifetime monitoring included","Battery storage included","Priority service support","10-yr workmanship warranty","25-yr panel warranty"],
     savings: "₱11,000–₱16,000/mo", payback: "3–4 years",
   },
 ];
@@ -476,7 +476,7 @@ export default function SuntasticSolar() {
           <SL>Transparent Pricing</SL>
           <div style={{textAlign:"center",marginBottom:56}}>
             <h2 style={{...TL,textAlign:"center"}}>Solar Packages for<br/><span style={{color:G}}>Every Home</span></h2>
-            <p style={{fontSize:15,color:"rgba(0,0,0,.45)",lineHeight:1.75,maxWidth:520,margin:"0 auto"}}>All packages include free site assessment, professional installation, permits, and net metering setup. No hidden fees.</p>
+            <p style={{fontSize:15,color:"rgba(0,0,0,.45)",lineHeight:1.75,maxWidth:520,margin:"0 auto"}}>All packages include free site assessment, professional installation. No hidden fees.</p>
           </div>
           <div className="price-grid" style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:16}}>
             {PRICING.map((plan,i)=>(
@@ -719,7 +719,7 @@ export default function SuntasticSolar() {
                 <span style={{fontSize:20}}>{c.icon}</span>
                 <div>
                   <div style={{fontSize:9,fontWeight:700,color:G,letterSpacing:"1.5px",marginBottom:2}}>{c.label}</div>
-                  <div style={{fontSize:13,color:"rgba(0,0,0,.5)",fontWeight:500}}>{c.val}</div>
+                  <div style={{fontSize:13,color:"rgba(0,0,0,.5)",fontWeight:500,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",maxWidth:"150px"}}>{c.val}</div>
                 </div>
               </div>
             ))}
