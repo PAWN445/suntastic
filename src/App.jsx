@@ -5,7 +5,7 @@ const G = "#00C47A";
 const NAV_LINKS = ["Services", "Projects", "Pricing", "About", "Testimonials"];
 
 const PROJECTS = [
-  { image: "/projects/project1.jpg", title: "Sir Carl Household", location: "Caloocan City", size: "6kW", year: "2026", desc: "Full metal roof installation setup. Reduced monthly bill from ₱12,000 to under ₱800." },
+  { image: "/projects/image1.jpg", title: "Sir Carl Household", location: "Caloocan City", size: "6kW", year: "2026", desc: "Full metal roof installation setup. Reduced monthly bill from ₱12,000 to under ₱800." },
   { image: "/projects/project2.jpg", title: "TechBuild Warehouse", location: "Makati", size: "50kW", year: "2023", desc: "Large-scale commercial rooftop system across 3 warehouse buildings. ROI projected at under 4 years." },
   { image: "/projects/project3.jpg", title: "Santos Household", location: "Laguna", size: "5kW", year: "2024", desc: "Hybrid solar + battery storage system. 24/7 power backup for the entire household." },
   { image: "/projects/project4.jpg", title: "GreenMart Superstore", location: "Cebu City", size: "30kW", year: "2023", desc: "Commercial installation with real-time monitoring dashboard. 40% reduction in operating costs." },
@@ -41,8 +41,8 @@ const PRICING = [
 ];
 
 const TEAM = [
-  { name: "Marco Reyes", role: "CEO & Founder", emoji: "👨‍💼", bio: "20+ years in renewable energy. Passionate about a solar-powered Philippines." },
-  { name: "Ana Santos", role: "Head of Engineering", emoji: "👩‍🔧", bio: "Licensed electrical engineer specializing in solar PV systems and grid integration." },
+  { name: "Ariel", role: "CEO & Founder", emoji: "👨‍💼", bio: "20+ years in renewable energy. Passionate about a solar-powered Philippines." },
+  { name: "Arnold", role: "COO & Programmer", emoji: "👩‍🔧", bio: "Licensed electrical engineer specializing in solar PV systems and grid integration." },
   { name: "Luis Garcia", role: "Sales Director", emoji: "👨‍💻", bio: "Helping hundreds of families and businesses make the switch to clean energy since 2015." },
   { name: "Claire Tan", role: "Project Manager", emoji: "👩‍💼", bio: "Ensures every installation is delivered on time, on budget, and beyond expectations." },
 ];
