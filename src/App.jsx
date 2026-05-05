@@ -5,7 +5,7 @@ const G = "#00C47A";
 const NAV_LINKS = ["Services", "Projects", "Pricing", "About", "Testimonials"];
 
 const PROJECTS = [
-  { image: "projects/project1.jpg", title: "Sir Carl Household", location: "Caloocan City", size: "6kW", year: "2026", desc: "Full metal roof installation setup. Reduced monthly bill from ₱12,000 to under ₱800." },
+  { image: "assets/projects/project1.JPG", title: "Sir Carl Household", location: "Caloocan City", size: "6kW", year: "2026", desc: "Full metal roof installation setup. Reduced monthly bill from ₱12,000 to under ₱800." },
   { image: "/projects/project2.jpg", title: "TechBuild Warehouse", location: "Makati", size: "50kW", year: "2023", desc: "Large-scale commercial rooftop system across 3 warehouse buildings. ROI projected at under 4 years." },
   { image: "/projects/project3.jpg", title: "Santos Household", location: "Laguna", size: "5kW", year: "2024", desc: "Hybrid solar + battery storage system. 24/7 power backup for the entire household." },
   { image: "/projects/project4.jpg", title: "GreenMart Superstore", location: "Cebu City", size: "30kW", year: "2023", desc: "Commercial installation with real-time monitoring dashboard. 40% reduction in operating costs." },
