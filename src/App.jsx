@@ -714,7 +714,7 @@ export default function SuntasticSolar() {
           </div>
 
           <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(200px,1fr))",gap:12,marginTop:16}}>
-            {[{icon:"📞",label:"PHONE",val:"+63 917 123 4567"},{icon:"📧",label:"EMAIL",val:"hello@suntasticsolar.ph"},{icon:"📍",label:"OFFICE",val:"Quezon City, Metro Manila"},{icon:"🕐",label:"HOURS",val:"Mon–Sat, 8AM–6PM"}].map((c,i)=>(
+            {[{icon:"📞",label:"PHONE",val:"+63 917 123 4567"},{icon:"📧",label:"EMAIL",val:"arnoldsuntasticsolarcorp@gmail.com"},{icon:"📍",label:"OFFICE",val:"Quezon City, Metro Manila"},{icon:"🕐",label:"HOURS",val:"Mon–Sat, 8AM–6PM"}].map((c,i)=>(
               <div key={i} className="contact-card">
                 <span style={{fontSize:20}}>{c.icon}</span>
                 <div>
