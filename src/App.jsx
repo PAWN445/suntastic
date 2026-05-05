@@ -719,7 +719,7 @@ export default function SuntasticSolar() {
                 <span style={{fontSize:20}}>{c.icon}</span>
                 <div>
                   <div style={{fontSize:9,fontWeight:700,color:G,letterSpacing:"1.5px",marginBottom:2}}>{c.label}</div>
-                  <div style={{fontSize:13,color:"rgba(0,0,0,.5)",fontWeight:500}}>{c.val}</div>
+                  <div style={{fontSize:13,color:"rgba(0,0,0,.5)",fontWeight:500,wordBreak:"break-all",lineHeight:1.4}}>{c.val}</div>
                 </div>
               </div>
             ))}
